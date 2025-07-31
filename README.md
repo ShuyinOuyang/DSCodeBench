@@ -1,4 +1,4 @@
-# DS-Bench: A Realistic Benchmark for Data Science Code Generation
+# DSCodeBench: A Realistic Benchmark for Data Science Code Generation
 
 <p align="center">
   <img src="fig/logo.png" style="height: 10em"/>
