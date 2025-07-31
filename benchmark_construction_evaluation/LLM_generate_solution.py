@@ -134,13 +134,13 @@ if __name__ == '__main__':
         "-b",
         "--benchmark",
         type=str,
-        choices=['ds_bench', 'ds1000'],
+        choices=['dscodebench', 'ds1000'],
         help="Choose seed code source",
         required=True,
     )
 
     args = parser.parse_args()
-    if args.benchmark == 'ds_bench':
+    if args.benchmark == 'dscodebench':
         generate_code_based_on_code_problem_description()
     elif args.benchmark == 'ds1000':
         generate_DS1000_code_based_on_code_problem_description()

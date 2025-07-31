@@ -22,7 +22,7 @@ Compared to the state-of-the-art benchmark DS-1000, DSCodeBench offers a more ch
 
 To build DSCodeBench, we developed a robust pipeline that includes task selection, ground truth code construction, test case generation, and problem description synthesis. This process is enhanced with a thorough manual review to ensure accuracy and improve evaluation reliability.
 
-Experimental results demonstrate that DSCodeBench exhibits reliable scaling behavior: larger models consistently outperform smaller ones. For example, the best-performing model, GPT-4o, achieves a pass@1 score of 0.202, indicating there is still significant room for improvement in realistic data science code generation.
+Experimental results demonstrate that DSCodeBench exhibits reliable scaling behavior: larger models consistently outperform smaller ones. For example, the best-performing model, GPT-4o, achieves a pass@1 score of 0.392, indicating there is still significant room for improvement in realistic data science code generation.
 
 We hope DSCodeBench provides a rigorous and trustworthy foundation for advancing LLM-based data science programming.
 

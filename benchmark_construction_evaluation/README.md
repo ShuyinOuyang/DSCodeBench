@@ -105,7 +105,7 @@ The main logic functions are listed in the "main" function.
 We use the following command to generate solutions for DS-bench and DS-1000:
 
 ```sh
-python LLM_generate_solution.py -b ds_bench
+python LLM_generate_solution.py -b dscodebench
 ```
 
 
