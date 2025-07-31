@@ -34,6 +34,7 @@ We also provide an extended version, `DS_bench_with_additional_logic.json`, whic
 <p align="center">
   <img src="fig/distribution.png">
 </p>
+
 <p align="center">
   <img src="benchmark_comparison.png">
 </p>
