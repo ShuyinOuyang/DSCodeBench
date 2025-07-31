@@ -26,9 +26,6 @@ Experimental results demonstrate that DS-Bench exhibits reliable scaling behavio
 
 We hope DS-Bench provides a rigorous and trustworthy foundation for advancing LLM-based data science programming.
 
-## 📰 Updates
-**[May. 12, 2025]**: Initial release of the benchmark and codebase.
-
 ## ⬇️ Benchmark
 
 You can directly download the benchmark from `DS_bench.json`.
@@ -36,6 +33,9 @@ We also provide an extended version, `DS_bench_with_additional_logic.json`, whic
 
 <p align="center">
   <img src="fig/distribution.png">
+</p>
+<p align="center">
+  <img src="benchmark_comparison.png">
 </p>
 
 ## 🚀 Benchmark Construction Pipeline & Evaluation
