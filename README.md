@@ -36,7 +36,7 @@ We also provide an extended version, `DS_bench_with_additional_logic.json`, whic
 </p>
 
 <p align="center">
-  <img src="benchmark_comparison.png">
+  <img src="fig/benchmark_comparison.png">
 </p>
 
 ## 🚀 Benchmark Construction Pipeline & Evaluation
