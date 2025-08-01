@@ -28,7 +28,7 @@ We hope DSCodeBench provides a rigorous and trustworthy foundation for advancing
 
 ## ⬇️ Benchmark
 
-You can directly download the benchmark from `DS_bench.json`.
+You can directly download the benchmark from `benchmark` folder.
 We also provide an extended version, `DS_bench_with_additional_logic.json`, which includes extra logic descriptions of the ground truth code in each problem description.
 
 <p align="center">
