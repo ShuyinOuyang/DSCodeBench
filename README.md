@@ -61,5 +61,14 @@ Results from our experiments are available in the  `experiment_results` folder.
   <img src="fig/experiment_result.png">
 </p>
 
+## 📜 Citation
 
+```bibtex
+@article{ouyang2025dscodebench,
+  title={DSCodeBench: A Realistic Benchmark for Data Science Code Generation},
+  author={Ouyang, Shuyin and Huang, Dong and Guo, Jingwen and Sun, Zeyu and Zhu, Qihao and Zhang, Jie M},
+  journal={arXiv preprint arXiv:2505.15621},
+  year={2025}
+}
+```
 
