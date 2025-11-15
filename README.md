@@ -48,6 +48,16 @@ You can find the full code for benchmark construction and evaluation in the [`be
   <img src="fig/overview.png">
 </p>
 
+## 💻 Evaluation Detail
+
+### Random Control
+**Random Seed** In our evaluation framework, we set the random seed to 42 to maintain the consistency of identical experiments.
+For some libraries, such as NumPy, Tensorflow, and Pytorch, we can easily set the random seed by using their default API function, like np.random.seed(),tf.random.set_seed(), and torch.manual_seed().
+But there are also libraries, such as Sklearn, which do not have specific API functions to control the global random seed. Instead, they control randomness by setting the value of random_state in the API functions, such as RandomForestClassifier(random_state=None).
+For these situations, we explicitly reset the value of random_state to 42 by iterating through the AST nodes of the code.
+
+**Temperature**  In our experiment, we set the temperature to 0.2. For each code task, we let the LLM generate a response 3 times to make the result more robust.
+
 ## 📍 Experimental Results
 
 Results from our experiments are available in the  `experiment_results` folder.
@@ -55,3 +65,6 @@ Results from our experiments are available in the  `experiment_results` folder.
 <p align="center">
   <img src="fig/experiment_result.png">
 </p>
+
+
+
