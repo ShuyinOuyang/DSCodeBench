@@ -26,6 +26,10 @@ Experimental results demonstrate that DSCodeBench exhibits reliable scaling beha
 
 We hope DSCodeBench provides a rigorous and trustworthy foundation for advancing LLM-based data science programming.
 
+
+## 📰 News
+- **[2025-11-08]** Our work was accepted by AAAI 2026.
+
 ## ⬇️ Benchmark
 
 You can directly download the benchmark from `benchmark` folder.
